@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "login",
+    "slug": "login",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon4.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./unlock/MAINMENU.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.unlock.appname",
+      "config": {
+        "googleMaps": {
+          "apiKey": "your_google_maps_api_key"
+        },
+        "kakao": {
+          "nativeAppKey": "38fa6abfc857b83e24d1a61b63e6e54f"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
